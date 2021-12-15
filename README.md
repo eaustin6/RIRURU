@@ -5,11 +5,11 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 Originally a AstrakoBot fork, RIRURU evolved further and was built to be more robust. 
 
-* Bot link:  <a href="https://t.me/RIRURUROBOT" alt="RIRURU ROBOT"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-AstrakoBot-blue" /> </a>
+* Bot link:  <a href="https://t.me/RIRURUROBOT" alt="RIRURU ROBOT"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 * Support group:  <a href="https://t.me/RIRURU_SUPPORT" alt="RIRURU ROBOT SUPPORT"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
-* Recommended federation:  <a href="https://t.me/HM_MODS_FEDERATION" alt="HM MODS FEDERATION"> <img src="https://img.shields.io/badge/🚫-ALTF4Fed-red" /> </a>
+* Recommended federation:  <a href="https://t.me/HM_MODS_FEDERATION" alt="HM MODS FEDERATION"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 In support group you can ask for help, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
