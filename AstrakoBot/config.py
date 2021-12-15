@@ -1,4 +1,3 @@
-# Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 import json
 import os
 
@@ -14,30 +13,30 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 123456789  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "awoo"
-    SUPPORT_CHAT = "awoo"  # Your own group for support, do not add the @
+    API_ID = 15274449  # integer value, dont use ""
+    API_HASH = "e0ac47a3d7779839e08fc1666a1650ca"
+    TOKEN = "2079135271:AAEXLWbN4Atf601DPX56t6tgS1BDOj7X6XU"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 2095506101  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "DISTURB_CODER"
+    SUPPORT_CHAT = "RIRURU_SUPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1234567890123
+        -1001558901571
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1234567890123
+        -1001558901571
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ALLOW_CHATS = True
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgresql://bubohsyg:v-gLB0iyjP5_4nYaj3ZFqK24An5gxzHa@castor.db.elephantsql.com/bubohsyg"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "UrzInZrO~lMP9mAoPUrVq0tUT5PkVD3~PMX3hmFcL9u95XTWkezFfzixqT2txlbb"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    WEATHER_API = ""  # go to openweathermap.org/api to get key
+    WEATHER_API = "15f0bd6bc22e4181cb25e0f391fecad5"  # go to openweathermap.org/api to get key
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
@@ -59,13 +58,13 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "LK53RBG7R1WU80RY"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "FILUWCH5L9F4"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
-    AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    AI_API_KEY = "b48cbc2869196d87ab724d4f061c08ef52801d6135478f99a267ce659d9a12c631f6ada0cc9377f630280bf4f4252aaaaa90fa623eb6c98454e1659d05bf4e9a"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
