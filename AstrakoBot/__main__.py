@@ -98,12 +98,13 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ASTRAKOBOT_IMG = "https://i.imgur.com/1oah5E2.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/aee3a0655632d64a58599.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """Hiya, glad to hear you want to donate!
+When you donate, all the fund goes towards my development which makes on fast and responsive.
+Your donation might also me get me a new feature or two, which I wasn't able to get due to server limitations.
+All the fund would be put into my services such as database, storage and hosting!
+You can donate by contacting my owner here: @HellFireDevil."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -222,7 +223,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add AstrakoBot to your group",
+                                text="Add me to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -231,25 +232,19 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/AstrakoBotSupport",
+                                url=f"https://t.me/RIRURU_UPDATES",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Source code",
-                                url="https://github.com/Astrako/AstrakoBot",
+                                url="https://t.me/RIRURU_BOT_UPDATES/6",
                             )
                         ],
                         [
                             InlineKeyboardButton(
                                 text="Recommended federation",
-                                url="https://t.me/ALTF4Fed",
+                                url="https://t.me/HM_MODS_FEDERATION",
                             )
                         ],
                     ]
