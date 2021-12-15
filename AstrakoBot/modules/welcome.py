@@ -198,7 +198,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 deletion(update, context, update.effective_message.reply_text(
-                    "Oh, Genos? Let's get this moving.", reply_to_message_id=reply
+                    "Damn, My Creator Joined the Group.", reply_to_message_id=reply
                 ))
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
@@ -210,7 +210,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 deletion(update, context, update.effective_message.reply_text(
-                    "Whoa! A developer user just joined!",
+                    "Damn, My Creator Joined the Group.",
                     reply_to_message_id=reply,
                 ))
                 welcome_log = (
