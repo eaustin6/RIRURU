@@ -232,7 +232,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/RIRURU_UPDATES",
+                                url=f"https://t.me/RIRURU_SUPPORT",
                             ),
                         ],
                         [
