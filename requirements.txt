@@ -4,7 +4,7 @@ lxml
 beautifulsoup4
 requests
 sqlalchemy
-python-telegram-bot==13.9
+python-telegram-bot
 psycopg2-binary
 feedparser
 pynewtonmath
@@ -24,6 +24,7 @@ coffeehouse
 regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
+markdown2
 wikipedia
 telethon
 spamwatch
